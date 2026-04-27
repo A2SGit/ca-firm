@@ -4,12 +4,12 @@ const Footer = () => {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <div className="nav-logo" style={{ fontSize: '1.75rem' }}>
+            <div className="nav-logo">
               IBM <span>&</span> Co.
             </div>
-            <p>Your trusted partner for comprehensive taxation, accounting, auditing, and business advisory services.</p>
+            <p>Your trusted partner for comprehensive taxation, accounting, auditing, and business advisory services since 2008.</p>
           </div>
-          
+
           <div>
             <h4 className="footer-title">Quick Links</h4>
             <div className="footer-links">
@@ -18,7 +18,16 @@ const Footer = () => {
               <a href="#contact">Contact</a>
             </div>
           </div>
-          
+
+          <div>
+            <h4 className="footer-title">Compliance</h4>
+            <div className="footer-links">
+              <a href="#">GST Filing</a>
+              <a href="#">Income Tax</a>
+              <a href="#">ROC Compliance</a>
+            </div>
+          </div>
+
           <div>
             <h4 className="footer-title">Legal</h4>
             <div className="footer-links">
@@ -28,9 +37,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} IBM & Co. Chartered Accountants. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} PSGM & Associates. Chartered Accountants. All rights reserved.</p>
+          <p>Designed with Excellence.</p>
         </div>
       </div>
     </footer>

@@ -1,16 +1,20 @@
 :root {
-  /* Colors */
-  --bg-dark: #0A0F1C;
-  --bg-card: rgba(30, 41, 59, 0.5);
-  --bg-card-hover: rgba(30, 41, 59, 0.8);
-  --accent-gold: #D4AF37;
-  --accent-gold-hover: #F3E5AB;
-  --text-primary: #F8FAFC;
-  --text-secondary: #94A3B8;
-  --text-inverse: #0A0F1C;
+  /* Colors - Inspired by caowais.com */
+  --primary-navy: #0b1c3d;
+  --primary-navy-light: #162a53;
+  --accent-green: #7ed321;
+  --accent-green-hover: #6cb21c;
   
-  --border-subtle: rgba(255, 255, 255, 0.1);
-  --border-accent: rgba(212, 175, 55, 0.3);
+  --bg-white: #ffffff;
+  --bg-off-white: #f8fafc;
+  --bg-dark: #0b1c3d;
+  
+  --text-dark: #1a1a1a;
+  --text-muted: #475569;
+  --text-light: #ffffff;
+  
+  --border-subtle: #e2e8f0;
+  --border-accent: rgba(126, 211, 33, 0.3);
 
   /* Typography */
   --font-heading: 'Outfit', sans-serif;
@@ -38,8 +42,8 @@ html {
 
 body {
   font-family: var(--font-body);
-  background-color: var(--bg-dark);
-  color: var(--text-primary);
+  background-color: var(--bg-white);
+  color: var(--text-dark);
   line-height: 1.6;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
@@ -49,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   font-weight: 700;
   line-height: 1.2;
+  color: var(--primary-navy);
 }
 
 a {
@@ -68,17 +73,25 @@ ul {
   padding: 0 var(--padding-x);
 }
 
-.text-gold {
-  color: var(--accent-gold);
+.text-green {
+  color: var(--accent-green);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.bg-off-white {
+  background-color: var(--bg-off-white);
 }
 
 .section-padding {
-  padding: 6rem 0;
+  padding: 10rem 0;
 }
 
-/* Glassmorphism */
+/* Glassmorphism - Updated for light theme */
 .glass {
-  background: var(--bg-card);
+  background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid var(--border-subtle);
