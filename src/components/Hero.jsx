@@ -10,7 +10,7 @@ const Hero = () => {
             Professional <span>Financial Services</span> for Your Business Growth
           </h1>
           <p className="hero-desc animate-fade-in delay-200">
-            PSGM & Associates. provides expert taxation, auditing, and corporate advisory services. We help businesses navigate complex regulatory landscapes with precision and integrity.
+            PSMG & Accociates. provides expert taxation, auditing, and corporate advisory services. We help businesses navigate complex regulatory landscapes with precision and integrity.
           </p>
           <div className="hero-cta animate-fade-in delay-300">
             <a href="#services" className="btn-primary">

@@ -30,8 +30,8 @@ const Navbar = () => {
       aria-label="Main Navigation"
     >
       <div className="container nav-container">
-        <Link to="/" className="nav-logo" aria-label="PSGM & Associates. Home">
-          IBM <span>&</span> Co.
+        <Link to="/" className="nav-logo" aria-label="PSMG & Accociates. Home">
+          PSMG <span>&</span> Accociates.
         </Link>
         <div className="nav-links">
           <div
