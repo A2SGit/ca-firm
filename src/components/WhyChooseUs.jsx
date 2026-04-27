@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
       <div className="container">
         <div className="benefits-grid">
           <div>
-            <h2 className="section-title">Why Choose <span className="text-green">PSGM & Associates?</span></h2>
+            <h2 className="section-title">Why Choose <span className="text-green">PSMG & Accociates?</span></h2>
             <p className="section-subtitle" style={{ margin: '0 0 3rem 0' }}>
               We don't just provide services; we build partnerships. Our commitment to excellence helps your business navigate the complex world of finance and law.
             </p>
@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
 
           <div className="benefit-image-container">
             <div className="benefit-image">
-              PSGM & Associates
+              PSMG & ACCOCIATES
             </div>
             <div className="benefit-badge">
               <h4>15+</h4>

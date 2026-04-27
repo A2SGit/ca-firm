@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="cta-section">
         <div className="cta-content">
           <h2>Ready to Secure Your Business?</h2>
-          <p>Get in touch with PSGM & Associates. for expert advisory and end-to-end financial compliance services tailored for your unique business needs.</p>
+          <p>Get in touch with PSMG & Accociates. for expert advisory and end-to-end financial compliance services tailored for your unique business needs.</p>
           <div className="hero-cta">
             <a href="https://maps.app.goo.gl/WnaYK4zim5Yhfa2X6" target="_blank" rel="noreferrer" className="btn-primary">
               <MapPin size={24} /> Visit Our Office

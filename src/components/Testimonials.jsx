@@ -5,7 +5,7 @@ const testimonials = [
     id: 1,
     name: "Rajesh Kumar",
     role: "CEO, Tech Solutions Inc.",
-    content: "PSGM & Associates. has been instrumental in our company's financial growth. Their expertise in taxation and corporate compliance is unmatched. Highly recommended for any business looking for serious financial partners.",
+    content: "PSMG & Accociates. has been instrumental in our company's financial growth. Their expertise in taxation and corporate compliance is unmatched. Highly recommended for any business looking for serious financial partners.",
     rating: 5,
     date: "2 months ago"
   },
@@ -21,7 +21,7 @@ const testimonials = [
     id: 3,
     name: "Anand Verma",
     role: "Director, BuildRight Constructions",
-    content: "We've been with PSGM & Associates. for over 5 years. Their auditing services are thorough and provide great insights into our operational efficiency. A truly trustworthy firm.",
+    content: "We've been with PSMG & Accociates. for over 5 years. Their auditing services are thorough and provide great insights into our operational efficiency. A truly trustworthy firm.",
     rating: 5,
     date: "6 months ago"
   }

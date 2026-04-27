@@ -28,7 +28,7 @@ const Booking = () => {
             {/* Header of the booking widget */}
             <div className="booking-header">
               <div className="consultant-info">
-                <div className="consultant-avatar">IBM</div>
+                <div className="consultant-avatar">PSMG</div>
                 <div>
                   <h3 style={{ color: 'var(--primary-navy)', fontSize: '1.25rem' }}>Expert Consultation</h3>
                   <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>15m • Video Call</p>
