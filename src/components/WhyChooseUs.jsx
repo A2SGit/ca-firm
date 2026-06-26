@@ -1,4 +1,5 @@
 import { CheckCircle2 } from 'lucide-react';
+import whyChooseUsImg from '../assets/why-choose-us.png';
 
 const benefits = [
   {
@@ -25,7 +26,7 @@ const WhyChooseUs = () => {
       <div className="container">
         <div className="benefits-grid">
           <div>
-            <h2 className="section-title">Why Choose <span className="text-green">PSMG & Accociates?</span></h2>
+            <h2 className="section-title">Why Choose <span className="text-green">IBM & Co.?</span></h2>
             <p className="section-subtitle" style={{ margin: '0 0 3rem 0' }}>
               We don't just provide services; we build partnerships. Our commitment to excellence helps your business navigate the complex world of finance and law.
             </p>
@@ -46,8 +47,12 @@ const WhyChooseUs = () => {
           </div>
 
           <div className="benefit-image-container">
-            <div className="benefit-image">
-              PSMG & ACCOCIATES
+            <div className="benefit-image" style={{ display: 'flex', alignItems: 'stretch', justifyContent: 'stretch', padding: 0 }}>
+              <img 
+                src={whyChooseUsImg} 
+                alt="IBM & Co. Consultants collaborating in meeting room" 
+                style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.5s ease' }} 
+              />
             </div>
             <div className="benefit-badge">
               <h4>15+</h4>

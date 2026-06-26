@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="footer-grid">
           <div className="footer-brand">
             <div className="nav-logo">
-              PSMG <span>&</span> Accociates.
+              IBM <span>&</span> Co.
             </div>
             <p>Your trusted partner for comprehensive taxation, accounting, auditing, and business advisory services since 2008.</p>
           </div>
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} PSMG & Accociates. Chartered Accountants. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} IBM & Co. Chartered Accountants. All rights reserved.</p>
           <p>Designed with Excellence.</p>
         </div>
       </div>

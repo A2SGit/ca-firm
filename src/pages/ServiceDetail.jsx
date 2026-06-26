@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { servicesData } from '../data/services.jsx';
 import { CheckCircle2, ArrowLeft } from 'lucide-react';
+import serviceDetailImg from '../assets/service-detail.png';
 
 const ServiceDetail = () => {
   const { id } = useParams();
@@ -41,18 +42,22 @@ const ServiceDetail = () => {
               <div className="benefit-list">
                 {service.features.map((feature, index) => (
                   <div key={index} className="benefit-item">
-                    <div className="benefit-icon">
-                      <CheckCircle2 size={24} />
-                    </div>
-                    <p style={{ fontWeight: 600, fontSize: '1.1rem' }}>{feature}</p>
+                     <div className="benefit-icon">
+                       <CheckCircle2 size={24} />
+                     </div>
+                     <p style={{ fontWeight: 600, fontSize: '1.1rem' }}>{feature}</p>
                   </div>
                 ))}
               </div>
             </div>
             
             <div className="benefit-image-container">
-              <div className="benefit-image" style={{ height: '400px', fontSize: '3rem' }}>
-                {service.title}
+              <div className="benefit-image" style={{ height: '400px', display: 'flex', alignItems: 'stretch', justifyContent: 'stretch', padding: 0 }}>
+                <img 
+                  src={serviceDetailImg} 
+                  alt={service.title} 
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+                />
               </div>
             </div>
           </div>
